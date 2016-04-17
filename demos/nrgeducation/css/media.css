@@ -1,0 +1,191 @@
+@media (max-width : 768px) {
+	.menu {
+		font-size: 12px;
+		margin: 27px 2px;
+	}
+	.menu li {
+		margin: 0 1px;
+		padding: 3px 1px;
+	}
+	.logo img {
+		padding: 25px 25px 29px 25px;
+	}
+	.follow-us {
+		padding: 0 20px;
+	}
+	.top-price .col-md-4 {
+		width: 22%;
+		margin: 0 10px;
+	}
+	.hot-courses .courses-slider .row .courses-1 {
+		width: 46%;
+	}
+	.courses-1 img, .courses-2 img {
+		width: 10%;
+	}
+	.hot-courses .courses-slider .row .courses-2 {
+		width: 46%;
+	}
+	.art {
+		margin-bottom: 60px;
+	}
+	.benefit {
+		margin: 90px 0 80px 0; 
+	}
+	.offer img {
+    	margin-left: 20px;
+    	width: 12%;
+	}
+	.offer p {
+    	margin-bottom: 25px;
+	}
+	.offer h3 {
+		margin-top: 80px;
+	}
+	.form h1 {
+    	margin: 40px 0 10px 0;
+    	padding-top: 40px;
+	}
+	.special-offer {
+    	padding: 40px 0 80px 0;
+	}
+	.form input {
+    	width: 235px;
+    	margin: 5px 0 5px -5px;
+    	padding-left: 15px;
+	}
+	.form .send-message {
+		margin-left: 12px;
+	}
+	.footer ul {
+		margin-top: 20px;
+		float: none;
+		text-align: center;
+		margin-right: 0px;
+	}
+	.footer ul a {
+		padding: 0 1px;
+	}
+	.footer p {
+		text-align: center;
+		float: none;
+    	margin: 0px 0 0 0px;
+    	padding: 30px 0 0 0;
+	}
+	.contacts .nrg img {
+		margin:  0 5px;
+	}
+	.links .ul-frst {
+		display: none;
+	}
+	.subscribe input {
+		background-position: -85px;
+	}
+}
+@media (max-width : 320px) {
+	.logo img {
+		padding: 25px 22px 29px 25px;
+	}
+	.menu {
+		text-align: justify;
+		font-size: 16px;
+		margin: 20px 1px;
+	}
+	.menu li {
+		margin: 0 1px;
+		padding: 3px 1px;
+	}
+	.description {
+    	margin: 0 0 0 20px;
+	}
+	.top-price .col-md-4 {
+		width: 93%;
+	}
+	.hot-courses .courses-slider .row .courses-1{
+		width: 93%;
+	}
+	.hot-courses .courses-slider .row .courses-2 {
+		width: 93%;
+	}
+	.courses-1 h6 {
+		margin-top: 0px;
+	}
+	.courses-2 h6 {
+		margin-top: 0px;
+	}
+	.courses-slider {
+		margin-top: 0;
+	}
+	.our-benefits .container .col-md-4 {
+		margin-left: 10px;
+		width: 93%;
+	}
+	.benefit {
+    	margin: 30px 0 60px 0;
+	}
+	.art-box {
+    	width: 100%;
+    	margin: -40px 0;
+	}
+	body .our-services .col-md-4 { 
+		width: 98%;
+	}
+	body .offer {
+		display: none;
+	}
+	.form input {
+		height: 20px;
+    	width: 235px;
+    	margin: 4px 0 1px 25px;
+    	padding-left: 15px;
+	}
+	.form h1 {
+		position: relative;
+		left: 80px;
+		font-size: 11px;
+		margin-top: -22px;
+		margin-right: -40px;
+	}
+	.form .send-message {
+		height: 20px;
+		margin-top: 2px;
+		margin-left: 37px;
+	}
+	.special-offer {
+		padding: 40px 0 40px 0;
+	}
+	body .our-services {
+    	margin: 10px 0 30px 0;
+	}
+	.our-news .block {
+		width: 99%;
+	}
+	.block p {
+    	margin: 14px 0 15px 0;
+	}
+	.our-news {
+    	padding-bottom: 40px;
+	}
+	.our-news h5 {
+    	margin-bottom: 40px;
+	}
+	.footer p {
+    	margin: 0px 0 0 0px;
+    	padding: 15px 0 0 0;
+	}
+	body .contacts .col-md-3 {
+		width: 98%;
+	}
+	.contacts .nrg img {
+		margin-bottom: 10px;
+	}
+	.trending-courses img {
+    	margin: 20px 0 45px 50px;
+	}
+	.prof-staff img {
+		margin: 20px 0 45px 50px;
+	} 
+	.certification img{
+		margin: 20px 0 45px 50px;
+	}
+}
