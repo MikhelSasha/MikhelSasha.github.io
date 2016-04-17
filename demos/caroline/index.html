@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Каролина</title>
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid.min.css" />
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="tinyscrollbar.css" media="all" />
+	<link href="css/default.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="js/jquery-1.6.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script type="text/javascript" src="js/tinycarousel.js"></script>
+	<script type="text/javascript" src="js/website.js"></script>
+	<script src="js/mobilyslider.js" type="text/javascript"></script>
+	<script src="js/init.js" type="text/javascript"></script>
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="main_logo">
+					<a href="index.html"><img src="img/main_logo.png"><br><p>ткани оптом и в розницу</p></a>
+				</div>
+				<div class="main_menu">
+					<ul>
+						<li><a href="about_company.html">О компании</a></li>
+						<li><a href="catalog.html">Каталог</a></li>
+						<li><a href="answer.html">Вопрос-ответ</a></li>
+						<li><a href="delivery.html">Доставка</a></li>
+						<li><a href="contacts.html">Контакты</a></li>
+					</ul>
+				</div>
+				<div class="write_to_us">
+					<a href="#openModal4"><p><img src="img/icon1.png"><span>Пишите нам</span></p></a>
+					<a href="favorites.html"><p><img src="img/icon2.png"><span>5 товаров</span></p></a>
+				</div>
+				<div class="tel">
+					<p><img src="img/icon3.png"><span>РАБОТАЕМ ПО ВСЕЙ РОССИИ</span><img src="img/icon3.png"></p>
+					<div class="mob">
+						<p>(812) 555-55-53</p>
+						<p>(812) 555-55-53</p>
+						<span>Санкт-Петербург, Лиговский пр. д. 45 оф. 7</span>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="search">
+					<p class="cabinet"><img src="img/icon4.png" style="float: left"><a href="#openModal2" style="float: left">Личный</a><a href="#openModal2" style="float: left">кабинет</a></p>
+
+					<div id="openModal2" class="modalDialog2">
+	<div>
+		<a href="#close" title="Закрыть" class="close"></a>
+		<h2>ВХОД В ЛИЧНЫЙ КАБИНЕТ</h2>
+		<input onblur="this.value=(this.value=='')?this.title:this.value;" onfocus="this.value=(this.value==this.title)?'':this.value;"  type="text" name="q" value="Логин (e-mail)" title="Логин (e-mail)">
+		<input onblur="this.value=(this.value=='')?this.title:this.value;" onfocus="this.value=(this.value==this.title)?'':this.value;"  type="text" name="q" value="Пароль" title="Пароль">
+		<button>Войти</button>
+		<div class="mod_2">
+			<a href="#">Регистрация</a>
+			<a href="#"><span>Забыли пароль?</span></a>
+			<p class="mod_3"><input type="checkbox"><a href="#">Запомнить меня</a></p>
+		</div>
+	
+	</div>
+</div>
+
+
+					<form>
+    					<div class="search1">
+    					 <input onblur="this.value=(this.value=='')?this.title:this.value;" onfocus="this.value=(this.value==this.title)?'':this.value;"  type="search" name="q" value="Поиск по сайту" title="Поиск по сайту">
+    					 <input type="submit" value="">
+   						</div>
+  					</form>
+					<p class="korzina"><img src="img/icon5.png">Корзина:<a href="pannier.html"> 5 товаров</a></p>
+				</div>
+				<div class="call">
+					<a href="#openModal3"><p>Обратный звонок</p></a>
+				</div>
+				<div id="openModal3" class="modalDialog3">
+	<div>
+		<a href="#close" title="Закрыть" class="close"></a>
+		<h2>ЗДРАВСТВУЙТЕ!</h2>
+		<div class="modal9">
+			<a href="#openModal4">Задать вопрос</a>
+			<a href="#openModal3">Заказать звонок</a>
+		</div>
+		<p>Мы Вам перезвоним!</p>
+		<input onblur="this.value=(this.value=='')?this.title:this.value;" onfocus="this.value=(this.value==this.title)?'':this.value;"  type="text" name="q" value="Ваше имя" title="Ваше имя">
+		<input onblur="this.value=(this.value=='')?this.title:this.value;" onfocus="this.value=(this.value==this.title)?'':this.value;"  type="text" name="q" value="Номер телефона" title="Номер телефона"><br>
+		<button>Заказать звонок</button>
+	
+	</div>
+</div>
+<div id="openModal4" class="modalDialog4">
+	<div>
+		<a href="#close" title="Закрыть" class="close"></a>
+		<h2>ЗДРАВСТВУЙТЕ!</h2>
+		<div class="modal10">
+			<a href="#openModal4">Задать вопрос</a>
+			<a href="#openModal3">Заказать звонок</a>
+		</div>
+		<textarea class="textarea" type="textarea" onblur="this.value=(this.value=='')?this.title:this.value;" onfocus="this.value=(this.value==this.title)?'':this.value;" name="q" value="Введите Ваше сообщение..." title="Введите Ваше сообщение...">Введите Ваше сообщение...</textarea>
+		<input onblur="this.value=(this.value=='')?this.title:this.value;" onfocus="this.value=(this.value==this.title)?'':this.value;"  type="text" name="q" value="Ваше имя" title="Ваше имя">
+		<input onblur="this.value=(this.value=='')?this.title:this.value;" onfocus="this.value=(this.value==this.title)?'':this.value;"  type="text" name="q" value="Номер телефона" title="Номер телефона"><br>
+		<button>Отправить</button>
+	
+	</div>
+</div>
+			</div>
+		</div>
+	</header>
+	<div class="menu_on_slider" id="menu_on_slider">
+		<a href="#"><p class="menu_on_slider1"></p></a>
+		<div class="menu_on_slider2"><input type="checkbox">&nbsp;&nbsp;<a href="#">Атлас</a></div>
+		<div class="menu_on_slider3"><input type="checkbox">&nbsp;&nbsp;<a href="#">Бархат</a></div>
+		<div class="menu_on_slider4"><input type="checkbox">&nbsp;&nbsp;<a href="#">Вискоза</a></div>
+		<div class="menu_on_slider5"><input type="checkbox">&nbsp;&nbsp;<a href="#">Джинс</a></div>
+		<div class="menu_on_slider6"><input type="checkbox">&nbsp;&nbsp;<a href="#">Батис</a></div>
+		<div class="menu_on_slider7"><input type="checkbox">&nbsp;&nbsp;<a href="#">Батис</a></div>
+		<div class="menu_on_slider8"><input type="checkbox">&nbsp;&nbsp;<a href="#">Дублерин</a></div>
+		<div class="menu_on_slider9"><input type="checkbox">&nbsp;&nbsp;<a href="#">Кожа</a></div>
+		<div class="menu_on_slider10"><input type="checkbox">&nbsp;&nbsp;<a href="#">Лён</a></div>
+		<div class="menu_on_slider11"><input type="checkbox">&nbsp;&nbsp;<a href="#">Марлевка</a></div>
+		<div class="menu_on_slider12"><input type="checkbox">&nbsp;&nbsp;<a href="#">На флисе</a></div>
+		<div class="menu_on_slider13"><input type="checkbox" checked="checked">&nbsp;&nbsp;<a href="#">Органза</a></div>
+		<div class="menu_on_slider14"><input type="checkbox">&nbsp;&nbsp;<a href="#">Костюмные</a></div>
+		<div class="menu_on_slider15"><input type="checkbox">&nbsp;&nbsp;<a href="#">Мех</a>&nbsp;<img src="img/menu_on_slider2.png"></div><br><br><br>
+		<div class="menu_on_slider16"><input type="checkbox">&nbsp;&nbsp;<a href="#">Креп</a></div>
+		<div class="menu_on_slider17"><input type="checkbox">&nbsp;&nbsp;<a href="#">Искусственный</a></div>
+		<div class="menu_on_slider18"><input type="checkbox">&nbsp;&nbsp;<a href="#">Кружевные</a></div>
+		<div class="menu_on_slider19"><input type="checkbox">&nbsp;&nbsp;<a href="#">Натуральный</a></div>
+		<div class="menu_on_slider20"><input type="checkbox">&nbsp;&nbsp;<a href="#">Рубашечные</a></div>
+		<div class="menu_on_slider21"><input type="checkbox">&nbsp;&nbsp;<a href="#">Рюш</a></div>
+		<div class="menu_on_slider22"><a href="#"><img src="img/menu_on_slider3.png"></a></div>
+		<div class="menu_on_slider23"></div>
+	</div>
+	<section class="slider_s">
+	<div class="container">
+		<div class="slider_1">
+			<div id="slider1">
+	<a class="buttons next next1" href="#">right</a>
+    <a class="buttons prev prev2" href="#">left</a>
+    <div class="viewport">
+        <ul id="scroll-2" class="overview">
+			<li>
+				<div class="preblock1">
+					<p id="slider_mnu">ТКАНИ ОДЕЖНЫЕ<br><span>500 товаров</span></p>
+				</div>
+				<div class="slider slider1">
+					<div class="sliderContent">
+						<div class="item">
+							<div class="block1">
+							</div>
+						</div>
+						<div class="item">
+							<div class="block1">
+							</div>
+						</div>
+						<div class="item">
+							<div class="block1">
+							</div>
+						</div>
+						<div class="item">
+							<div class="block1">
+							</div>
+						</div>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="preblock1">
+					<p>ШВЕЙНАЯ ФУРНИТУРА<br><span>460 товаров</span></p>
+				</div>
+				<div class="slider slider1">
+					<div class="sliderContent">
+						<div class="item">
+							<div class="block2">
+							</div>
+						</div>
+						<div class="item">
+							<div class="block2">
+							</div>
+						</div>
+						<div class="item">
+							<div class="block2">
+							</div>
+						</div>
+						<div class="item">
+							<div class="block2">
+							</div>
+						</div>
+					</div>
+				</div>
+			</li>
+			
+			<li>
+				<div class="preblock1">
+					<p>РАСПРОДАЖА<br><span>75 товаров</span></p>
+				</div>
+				<div class="slider slider1">
+					<div class="sliderContent">
+						<div class="item">
+							<div class="block3">
+							</div>
+						</div>
+						<div class="item">
+							<div class="block3">
+							</div>
+						</div>
+						<div class="item">
+							<div class="block3">
+							</div>
+						</div>
+						<div class="item">
+							<div class="block3">
+							</div>
+						</div>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="preblock1">
+					<p id="slider_mnu">ТКАНИ ОДЕЖНЫЕ<br><span>500 товаров</span></p>
+				</div>
+				<div class="slider slider1">
+					<div class="sliderContent">
+						<div class="item">
+							<div class="block1">
+							</div>
+						</div>
+						<div class="item">
+							<div class="block1">
+							</div>
+						</div>
+						<div class="item">
+							<div class="block1">
+							</div>
+						</div>
+						<div class="item">
+							<div class="block1">
+							</div>
+						</div>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="preblock1">
+					<p>ШВЕЙНАЯ ФУРНИТУРА<br><span>460 товаров</span></p>
+				</div>
+				<div class="slider slider1">
+					<div class="sliderContent">
+						<div class="item">
+							<div class="block2">
+							</div>
+						</div>
+						<div class="item">
+							<div class="block2">
+							</div>
+						</div>
+						<div class="item">
+							<div class="block2">
+							</div>
+						</div>
+						<div class="item">
+							<div class="block2">
+							</div>
+						</div>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="slider slider1">
+					<div class="sliderContent">
+						<div class="item">
+							<div class="block1">
+								<p>ТКАНИ ОДЕЖНЫЕ<br><span>500 товаров</span></p>
+							</div>
+						</div>
+						<div class="item">
+							<div class="block1">
+								<p>ТКАНИ ОДЕЖНЫЕ<br><span>500 товаров</span></p>
+							</div>
+						</div>
+						<div class="item">
+							<div class="block1">
+								<p>ТКАНИ ОДЕЖНЫЕ<br><span>500 товаров</span></p>
+							</div>
+						</div>
+						<div class="item">
+							<div class="block1">
+								<p>ТКАНИ ОДЕЖНЫЕ<br><span>500 товаров</span></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</li>
+				
+		</ul>
+	</div>
+</div>
+		</div>
+		<div class="news">
+			<div class="slider3">
+			<div class="news_top">
+				<p>НАШИ НОВОСТИ</p>
+			</div>
+	<ul>
+		<li><div class="news_slide">
+				<p>Оптовая продажа тканей и швейной гарнитуры от<br>
+				ведущих производителй в Новосибирске и других <br>
+				городах... </p>
+				<a href="#openModal1"><input class="podpishis" type="submit" value="Подпишись"></a>
+<div id="openModal1" class="modalDialog1">
+	<div>
+		<a href="#close" title="Закрыть" class="close"></a>
+		<h2>ПОДПИШИСЬ НА НАШИ НОВОСТИ</h2>
+		<input onblur="this.value=(this.value=='')?this.title:this.value;" onfocus="this.value=(this.value==this.title)?'':this.value;"  type="text" name="q" value="E-mail" title="E-mail">
+		<button>Подписаться</button>
+	</div>
+</div>
+			</div></li>
+		<li><div class="news_slide">
+				<p>Оптовая продажа тканей и швейной гарнитуры от<br>
+				ведущих производителй в Новосибирске и других <br>
+				городах... </p>
+				<a href="#openModal1"><input class="podpishis" type="submit" value="Подпишись"></a>
+<div id="openModal1" class="modalDialog1">
+	<div>
+		<a href="#close" title="Закрыть" class="close"></a>
+		<h2>ПОДПИШИСЬ НА НАШИ НОВОСТИ</h2>
+		<input onblur="this.value=(this.value=='')?this.title:this.value;" onfocus="this.value=(this.value==this.title)?'':this.value;"  type="text" name="q" value="E-mail" title="E-mail">
+		<button>Подписаться</button>
+	</div>
+</div>
+			</div></li>
+	</ul>
+</div>
+		</div>
+		</div>
+	</section>
+	<section class="two">
+		<div class="container">
+			<div class="row">
+				<div class="two_slider">
+					<div id="slideshow-wrap">
+        <input type="radio" id="button-1" name="controls" checked="checked"/>
+        <input type="radio" id="button-2" name="controls"/>
+        <input type="radio" id="button-3" name="controls"/>
+        <input type="radio" id="button-4" name="controls"/>
+        <input type="radio" id="button-5" name="controls"/>
+        <label for="button-1" class="arrows" id="arrow-1"></label>
+        <label for="button-2" class="arrows" id="arrow-2"></label>
+        <label for="button-3" class="arrows" id="arrow-3"></label>
+        <label for="button-4" class="arrows" id="arrow-4"></label>
+        <label for="button-5" class="arrows" id="arrow-5"></label>
+        <div id="slideshow-inner">
+            <ul>
+                <li id="slide1">
+                    <div class="row">
+						<p class="center"><img style="align: left;" src="img/img1.png"><h2>22 апреля</h2><h1 style="color: #99cc33; font-family: PT Sans Bold;">Количество имеет значение</h1><p style="line-height: 2;">- Аппликации эмблемы</p>
+						<p style="line-height: 2;">- Аппликации детские наборы</p>
+						<p style="line-height: 2;">- Косая байка атласная</p>
+						<p style="line-height: 2;">- Тесьма металл пластик</p>
+						<p style="line-height: 2;">- Застёжка для комбинезона</p>
+					</div>
+                </li>
+                <li id="slide2">
+                    <div class="row">
+						<p class="center"><img style="align: left;" src="img/img1.png"><h2>22 апреля</h2><h1 style="color: #99cc33; font-family: PT Sans Bold;">Количество имеет значение</h1><p style="line-height: 2;">- Аппликации эмблемы</p>
+						<p style="line-height: 2;">- Аппликации детские наборы</p>
+						<p style="line-height: 2;">- Косая байка атласная</p>
+						<p style="line-height: 2;">- Тесьма металл пластик</p>
+						<p style="line-height: 2;">- Застёжка для комбинезона</p>
+					</div>
+                </li>
+                <li id="slide3">
+                    <div class="row">
+						<p class="center"><img style="align: left;" src="img/img1.png"><h2>22 апреля</h2><h1 style="color: #99cc33; font-family: PT Sans Bold;">Количество имеет значение</h1><p style="line-height: 2;">- Аппликации эмблемы</p>
+						<p style="line-height: 2;">- Аппликации детские наборы</p>
+						<p style="line-height: 2;">- Косая байка атласная</p>
+						<p style="line-height: 2;">- Тесьма металл пластик</p>
+						<p style="line-height: 2;">- Застёжка для комбинезона</p>
+					</div>
+                </li>
+                <li id="slide4">
+                    <div class="row">
+						<p class="center"><img style="align: left;" src="img/img1.png"><h2>22 апреля</h2><h1 style="color: #99cc33; font-family: PT Sans Bold;">Количество имеет значение</h1><p style="line-height: 2;">- Аппликации эмблемы</p>
+						<p style="line-height: 2;">- Аппликации детские наборы</p>
+						<p style="line-height: 2;">- Косая байка атласная</p>
+						<p style="line-height: 2;">- Тесьма металл пластик</p>
+						<p style="line-height: 2;">- Застёжка для комбинезона</p>
+					</div>
+                </li>
+                <li id="slide5">
+                    <div class="row">
+						<p class="center"><img style="align: left;" src="img/img1.png"><h2>22 апреля</h2><h1 style="color: #99cc33; font-family: PT Sans Bold;">Количество имеет значение</h1><p style="line-height: 2;">- Аппликации эмблемы</p>
+						<p style="line-height: 2;">- Аппликации детские наборы</p>
+						<p style="line-height: 2;">- Косая байка атласная</p>
+						<p style="line-height: 2;">- Тесьма металл пластик</p>
+						<p style="line-height: 2;">- Застёжка для комбинезона</p>
+					</div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+				</div>
+				<div class="voting" id="voting">
+					<h2>Голосование</h2>
+					<p>Всё лучшее - детям! Детскую фланель какого <br>производителя Вы предпочитаете?</p>
+					<input class="r_button" type="radio" name="name" id="r_1" />
+					<label for="r_1">Пакистан</label><br>
+					<input class="r_button" type="radio" name="name" id="r_2" />
+					<label for="r_2">Россия</label><br>
+					<input class="r_button" type="radio" name="name" id="r_3" />
+					<label for="r_3">Китай</label><br>
+					<input class="r_button" type="radio" name="name" id="r_4" />
+					<label for="r_4">Не интересует данного направление</label>
+
+					<input class="btn" id="vot_btn" type="submit" value="Голосовать" />
+
+				</div>
+				<div class="voting2" id="voting2">
+					<h2>Голосование</h2>
+					<p class="p1">Всё лучшее - детям! Детскую фланель какого <br>производителя Вы предпочитаете?</p>
+					<p class="p_sec">Пакистан<br><img src="img/vot1.png"></p>
+					<p class="p_sec">Россия<br><img src="img/vot2.png"></p>
+					<p class="p_sec">Китай<br><img src="img/vot3.png"></p>
+					<p class="p_sec">Не интересует данного направление<br><img src="img/vot4.png"></p>
+					<p class="p_last">Проголосовало 30 человек</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="three">
+		<div class="container">
+			<div class="col_1">
+				<h1>ТКАНИ ОПТОМ В САНКТ-ПЕТЕРБУРГЕ</h1>
+				<p>Компания «Каролина» является известным оптовым поставщиком в СПб. Мы продаем ткани 
+				оптом уже более 10 лет.  Наш оптовый склад открылся в 2001 году. За это время мы 
+				приобрели надежные партнерские связи с уважаемыми поставщиками и выработали 
+				грамотную ценовую политику. У нас Вы сможете купить ткани со склада по самым 
+				демократичным ценам. Мы продаем примерно 1 миллион метров ткани в год. Среди наших 
+				постоянных клиентов находится более 1000 разных фирм и индивидуальных 
+				предпринимателей. Наш оптовый склад содержит более 3000 наименований. У нас Вы 
+				найдете трикотажное полотно, итальянские ткани, английские и французские ткани, шелк из 
+				Арабских Эмиратов. В каталоге, представленном на сайте, находятся образцы многих 
+				популярных материалов. Узнать полный ассортимент и цены вы можете, позвонив на наш 
+				оптовый склад. Мы проконсультируем Вас по всем вопросам. Сотрудники компании 
+				«Каролина» будут рады видеть Вас офисе по адресу улица Тележная, дом 37. Если вы живете 
+				в Санкт-Петербурге и желаете самостоятельно выбрать нужную вам ткань среди огромного 
+				разнообразия материалов, мы приглашаем вас посетить наш магазин высококачественной 
+				ткани.</p>
+			</div>
+			<div class="col_2">
+				<h1>АССОРТИМЕНТ  ТКАНЕЙ</h1>
+				<p>Текстиль и трикотаж европейских компаний пользуется неизменной популярностью и в 
+				России, и во всем мире. Мы сотрудничаем с поставщиками из Испании, Польши, Германии, 
+				ОАЭ, а также Китая и Кореи.Мы осуществляем оптовые поставки тканей не только на 
+				территории Санкт-Петербурга и Ленинградской области. Для иногородних клиентов мы 
+				высылаем образцы понравившейся продукции по почте или курьерской службой.</p>
+			</div>
+			<div class="col_3">
+				<h1>МАГАЗИНЫ ТКАНЕЙ</h1>
+				<p>Магазины «Каролина» в Санкт-Петербурге 
+				располагают большим ассортиментом тканей 
+				самого высокого качества для пошива любых видов 
+				одежды. Магазин эксклюзивной ткани позволит вам 
+				подобрать и купить плательные, костюмные, 
+				трикотажные, джинсовые, вельветовые, 
+				подкладочные ткани высочайшего качества оптом 
+				и в розницу по разумным ценам.
+				<br><br>
+				Компания «Каролина» имеет три текстильных 
+				салона:<br>
+				• Первый магазин ткани в Петербурге расположен 
+				по адресу Лиговский проспект 115 А. <br>
+				• Второй текстильный салон находится по адресу 
+				Апраксин двор (корпус 31). <br>
+				• Третий магазин высококачественной ткани 
+				расположен по адресу Бухарестская ул. д.72 <br>
+				• В магазине на Лиговском работает 
+				профессиональная швея.
+				</p>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="container">
+			<div class="main_logo">
+				<img src="img/main_logo.png"><br><p>ткани оптом и в розницу</p>
+			</div>
+			<div class="copyright">
+				<p>Copyright 2011-2014 © Каролина — оптовая и розничная продажа тканей. Все права защищены.</p>
+			</div>
+		</div>
+	</footer>
+	<script type="text/javascript">
+	document.getElementById('slider_mnu').onmouseover=function(){
+		document.getElementById('menu_on_slider').style.display="block";
+	}
+	document.getElementById('slider_mnu').onmouseout=function(){
+		document.getElementById('menu_on_slider').style.display="none";
+	}
+	document.getElementById('menu_on_slider').onmouseover=function(){
+		this.style.display="block";
+	}
+	document.getElementById('menu_on_slider').onmouseout=function(){
+		this.style.display="none";
+	}
+	document.getElementById('vot_btn').onclick=function(){
+		document.getElementById('voting').style.display="none";
+		document.getElementById('voting2').style.display="block";
+	}
+
+$(document).ready(function() {
+ $(".slider3").each(function () { // обрабатываем каждый слайдер
+  var obj = $(this);
+  $(obj).append("<div class='nav'></div>");
+  $(obj).find("li").each(function () {
+   $(obj).find(".nav").append("<span rel='"+$(this).index()+"'></span>"); // добавляем блок навигации
+   $(this).addClass("slider3"+$(this).index());
+  });
+  $(obj).find("span").first().addClass("on"); // делаем активным первый элемент меню
+ });
+});
+function sliderJS (obj, sl) { // slider function
+ var ul = $(sl).find("ul"); // находим блок
+ var bl = $(sl).find("li.slider3"+obj); // находим любой из элементов блока
+ var step = $(bl).width(); // ширина объекта
+ $(ul).animate({marginLeft: "-"+step*obj}, 500); // 500 это скорость перемотки
+}
+$(document).on("click", ".slider3 .nav span", function() { // slider click navigate
+ var sl = $(this).closest(".slider3"); // находим, в каком блоке был клик
+ $(sl).find("span").removeClass("on"); // убираем активный элемент
+ $(this).addClass("on"); // делаем активным текущий
+ var obj = $(this).attr("rel"); // узнаем его номер
+ sliderJS(obj, sl); // слайдим
+ return false;
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+/* Examples - Tiny Carousel */
+#slider1 { height: 1%; width:707px; overflow:hidden; padding: 0px;}
+#slider1 .viewport {float: left; width:747px; height: 332px; overflow: hidden; position: relative; z-index:3;margin-top:-55px; margin-left:-42px;}
+#slider1 .buttons { display: block; text-indent: -999em; float: right; overflow: hidden; position: relative; top:300px; z-index:99; right:30px;}
+#slider1 .prev { background: url(img/arr-left.png) no-repeat; width:39px; height:38px;float:left; margin-right:2px;}
+#slider1 .prev2 { background: url(img/left2.png) no-repeat; position: relative; left: -6px; top: 165px; width:45px; height:86px; float:left; margin-top: -50px; z-index: 99;}
+#slider1 .disable { visibility: inherit; }
+#slider1 .next {float:right; background: url(img/arr-right.png) no-repeat;width:39px; height:38px;}
+#slider1 .next1 {float:right; background: url(img/right2.png) no-repeat;width:45px; height:86px; margin: -180px -30px 0 0; z-index: 9;}
+#slider1 .disable { visibility: inherit; }
+#slider1 .overview { list-style: none; position: absolute; width: 900px; margin-left: -20; top: 0; border:1px solid green;}
+#slider1 .overview li{ float: left; width:223px; margin: 9px 6px 6px 7px; height: 301px;}
+
+
+#slider2 { height: 1%; width:900px;height:500px; overflow:hidden; padding: 0 0 10px; padding-left:3px; position:relative; top:-50px;}
+#slider2 .viewport { margin-right:18px; float: left; width:900px; height: 403px; overflow: hidden; position: relative; z-index:3;margin-top:20px;}
+#slider2 .buttons { display: block; text-indent: -999em; float: right; overflow: hidden; position: relative; top:3px; z-index:99; right:80px;}
+#slider2 .prev { background: url(img/arrl.png) no-repeat; width:39px; height:38px;float:right; margin-right:2px;}
+#slider2 .disable { visibility: hidden; }
+#slider2 .next {float:right; background: url(img/arrr.png) no-repeat;width:39px; height:38px;}
+#slider2 .disable { visibility: hidden; }
+#slider2 .overview { list-style: none; position: absolute; width: 285px; left: 0 top: 0; }
+#slider2 .overview li{ float: left; width:285px; height: 400px;}
+
+
+#slider3 { height: 1%; width:244px; overflow:hidden; padding-bottom:12px;position:relative; margin-top:-50px;float:left;margin-bottom:20px;}
+#slider3 .viewport {margin-left:20px; margin-right:10px; float: left; width:197px; height: 118px; overflow: hidden; top:25px; position: relative; z-index:3;}
+#slider3 .buttons { display: block; text-indent: -999em; float: left; overflow: hidden; position: relative; top:90px;}
+#slider3 .prev { background: url(img/arrow-prev3.png) no-repeat; width:18px; height:18px;}
+#slider3 .next {float:right; background: url(img/arrow-next3.png) no-repeat;width:18px; height:18px;margin-right:10px;}
+#slider3 .overview { list-style: none; position: absolute; width: 197px; left: 0 top: 0; }
+#slider3 .overview li{ float: left; width:187px; height: 118px;margin-left:-25px;}
+
+
+
+
+#slider4 { height: 1%; overflow:hidden; display: block; padding: 0 0 10px 0; margin: 0 0 0 50px;}
+#slider4 .viewport { width: 500px; height: 257px; overflow: hidden; position: relative; }
+#slider4 .pager { overflow:hidden; height: 1%; list-style: none; clear: both; margin: 0 0 10px; }
+#slider4 .pager li { float: left; }
+#slider4 .pagenum { background-color: #fff; text-decoration: none; text-align: center; padding: 5px; color: #555555; font-size: 14px; font-weight: bold; display: block; }
+#slider4 .active { color: #fff; background-color:  #555555; }
+#slider4 .overview { list-style: none; position: absolute; width: 500px; left: 0 top: 0; }
+#slider4 .overview .page{ float: left; padding: 5px; height: 245px; border: 1px solid #dcdcdc; width: 488px;}
+
+#slider5 { height: 1%; overflow:hidden; padding: 0 0 10px; margin: 0 0 0 50px;  }
+#slider5 .viewport { width: 240px; height: 125px; overflow: hidden; position: relative; }
+#slider5 .buttons { background:url("../images/buttons.png") no-repeat scroll 0 0 transparent; display: block; margin: 0 0 5px 100px; background-position: 0 -74px; text-indent: -999em; width: 39px; height: 37px; overflow: hidden; position: relative; }
+#slider5 .next { background-position: 0 -112px; margin: 5px 0 0 100px;  }
+#slider5 .disable { visibility: hidden; }
+#slider5 .overview { list-style: none; position: absolute; width: 240px; left: 0 top: 0; }
+#slider5 .overview li{ float: left; margin: 0 20px 0 0; padding: 1px; height: 121px; border: 1px solid #dcdcdc; width: 236px;}
+
+#slider6 { height: 1%; overflow:hidden; padding: 0 0 10px; margin: 0 0 0 50px;  }
+#slider6 .viewport { float: left; width: 240px; height: 125px; overflow: hidden; position: relative; }
+#slider6 .buttons { background:url("../images/buttons.png") no-repeat scroll 0 0 transparent; display: block; margin: 30px 10px 0 0; background-position: 0 -38px; text-indent: -999em; float: left; width: 39px; height: 37px; overflow: hidden; position: relative; }
+#slider6 .next { background-position: 0 0; margin: 30px 0 0 10px;  }
+#slider6 .disable { visibility: hidden; }
+#slider6 .overview { list-style: none; position: absolute; width: 240px; left: 0 top: 0; }
+#slider6 .overview li{ float: left; margin: 0 20px 0 0; padding: 1px; height: 121px; border: 1px solid #dcdcdc; width: 236px;}
+
+#slider7 { height: 1%; overflow:hidden; padding: 0 0 10px 0; }
+#slider7 .viewport { width: 240px; height: 125px; float: left; overflow: hidden; position: relative;  border:1px solid red;}
+#slider7 .buttons { display: block; text-indent: -999em; float: left; overflow: hidden; position: relative; top:35px;}
+#slider7 .prev { background: url(img/arrow-prev-two.png) no-repeat; width:32px; height:50px;}
+#slider7 .next {float:right; background: url(img/arrow-next-three.png) no-repeat; width:32px; height:50px;}
+#slider7 .disable { visibility: hidden; }
+#slider7 .overview { list-style: none; position: absolute; width: 240px; left: 0 top: 0; }
+#slider7 .overview li{ float: left; margin: 0 20px 0 0; padding: 1px; height: 121px; border: 1px solid #dcdcdc; width: 236px;}

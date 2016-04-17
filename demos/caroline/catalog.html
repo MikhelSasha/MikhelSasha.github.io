@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Каролина</title>
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid.min.css" />
+	<link rel="stylesheet" href="css/style.css" />
+</head>
+<body style="height: 1100px;">
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="main_logo">
+					<a href="index.html"><img src="img/main_logo.png"><br><p>ткани оптом и в розницу</p></a>
+				</div>
+				<div class="main_menu">
+					<ul>
+						<li><a href="about_company.html">О компании</a></li>
+						<li><a href="catalog.html">Каталог</a></li>
+						<li><a href="answer.html">Вопрос-ответ</a></li>
+						<li><a href="delivery.html">Доставка</a></li>
+						<li><a href="contacts.html">Контакты</a></li>
+					</ul>
+				</div>
+				<div class="write_to_us">
+					<a href="#openModal4"><p><img src="img/icon1.png"><span>Пишите нам</span></p></a>
+					<a href="favorites.html"><p><img src="img/icon2.png"><span>5 товаров</span></p></a>
+				</div>
+				<div class="tel">
+					<p><img src="img/icon3.png"><span>РАБОТАЕМ ПО ВСЕЙ РОССИИ</span><img src="img/icon3.png"></p>
+					<div class="mob">
+						<p>(812) 555-55-53</p>
+						<p>(812) 555-55-53</p>
+						<span>Санкт-Петербург, Лиговский пр. д. 45 оф. 7</span>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="search">
+					<p class="cabinet"><img src="img/icon4.png" style="float: left"><a href="#openModal2" style="float: left">Личный</a><a href="#openModal2" style="float: left">кабинет</a></p>
+
+					<div id="openModal2" class="modalDialog2">
+	<div>
+		<a href="#close" title="Закрыть" class="close"></a>
+		<h2>ВХОД В ЛИЧНЫЙ КАБИНЕТ</h2>
+		<input onblur="this.value=(this.value=='')?this.title:this.value;" onfocus="this.value=(this.value==this.title)?'':this.value;"  type="text" name="q" value="Логин (e-mail)" title="Логин (e-mail)">
+		<input onblur="this.value=(this.value=='')?this.title:this.value;" onfocus="this.value=(this.value==this.title)?'':this.value;"  type="text" name="q" value="Пароль" title="Пароль">
+		<button>Войти</button>
+		<div class="mod_2">
+			<a href="#">Регистрация</a>
+			<a href="#"><span>Забыли пароль?</span></a>
+			<p class="mod_3"><input type="checkbox"><a href="#">Запомнить меня</a></p>
+		</div>
+	
+	</div>
+</div>
+
+
+					<form>
+    					<div class="search1">
+    					 <input onblur="this.value=(this.value=='')?this.title:this.value;" onfocus="this.value=(this.value==this.title)?'':this.value;"  type="search" name="q" value="Поиск по сайту" title="Поиск по сайту">
+    					 <input type="submit" value="">
+   						</div>
+  					</form>
+					<p class="korzina"><img src="img/icon5.png">Корзина:<a href="pannier.html"> 5 товаров</a></p>
+				</div>
+				<div class="call">
+					<a href="#openModal3"><p>Обратный звонок</p></a>
+				</div>
+				<div id="openModal3" class="modalDialog3">
+	<div>
+		<a href="#close" title="Закрыть" class="close"></a>
+		<h2>ЗДРАВСТВУЙТЕ!</h2>
+		<div class="modal9">
+			<a href="#openModal4">Задать вопрос</a>
+			<a href="#openModal3">Заказать звонок</a>
+		</div>
+		<p>Мы Вам перезвоним!</p>
+		<input onblur="this.value=(this.value=='')?this.title:this.value;" onfocus="this.value=(this.value==this.title)?'':this.value;"  type="text" name="q" value="Ваше имя" title="Ваше имя">
+		<input onblur="this.value=(this.value=='')?this.title:this.value;" onfocus="this.value=(this.value==this.title)?'':this.value;"  type="text" name="q" value="Номер телефона" title="Номер телефона"><br>
+		<button>Заказать звонок</button>
+	
+	</div>
+</div>
+<div id="openModal4" class="modalDialog4">
+	<div>
+		<a href="#close" title="Закрыть" class="close"></a>
+		<h2>ЗДРАВСТВУЙТЕ!</h2>
+		<div class="modal10">
+			<a href="#openModal4">Задать вопрос</a>
+			<a href="#openModal3">Заказать звонок</a>
+		</div>
+		<textarea class="textarea" type="textarea" onblur="this.value=(this.value=='')?this.title:this.value;" onfocus="this.value=(this.value==this.title)?'':this.value;" name="q" value="Введите Ваше сообщение..." title="Введите Ваше сообщение...">Введите Ваше сообщение...</textarea>
+		<input onblur="this.value=(this.value=='')?this.title:this.value;" onfocus="this.value=(this.value==this.title)?'':this.value;"  type="text" name="q" value="Ваше имя" title="Ваше имя">
+		<input onblur="this.value=(this.value=='')?this.title:this.value;" onfocus="this.value=(this.value==this.title)?'':this.value;"  type="text" name="q" value="Номер телефона" title="Номер телефона"><br>
+		<button>Отправить</button>
+	
+	</div>
+</div>
+			</div>
+		</div>
+	</header>
+	<section class="menu2">
+		<div class="container">
+			<div class="sub_menu2">
+				<ul>
+					<li><a href="#">ТКАНИ ОДЕЖНЫЕ</a></li>
+					<li><a href="#">ШВЕЙНАЯ ФУРНИТУРА</a></li>
+					<li><a href="#">РАСПРОДАЖА</a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	<section class="catalog">
+		<div class="container">
+			<h1>Велюр оптом</h1>
+			<div class="catalog1">
+			<ul class="accordion">
+    <li class="accordion_item">
+		<div class="platel">
+        <label class="accordion_trigger" for="toggle-01"><p><input class="r_button2" type="radio" name="name" id="r_1" />&nbsp;<label for="r_1">Плательные ткани</label></p><img align="right" src="img/catalog18.png"></label>
+        <input type="radio" class="accordion_toggle" name="accordion-01" id="toggle-01" checked />
+        <div class="accordion_target">
+            <p>
+                	<p class="pod_mn"><input class="r_button2" type="radio" name="name" id="r_2" />&nbsp;<label for="r_2">Атлас</label></p>
+					<p class="pod_mn"><input class="r_button2" type="radio" name="name" id="r_3" />&nbsp;<label for="r_3">Кожа</label></p>
+					<p class="pod_mn"><input class="r_button2" type="radio" name="name" id="r_4" />&nbsp;<label for="r_4">Костюмные</label></p>
+					<p class="pod_mn"><input class="r_button2" type="radio" name="name" id="r_5" />&nbsp;<label for="r_5">Креп</label></p>
+					<p class="pod_mn"><input class="r_button2" type="radio" name="name" id="r_6" />&nbsp;<label for="r_6">Батис</label></p>
+					<p class="pod_mn"><input class="r_button2" type="radio" name="name" id="r_7" />&nbsp;<label for="r_7">Кружевные</label></p>
+					<p class="pod_mn"><input class="r_button2" type="radio" name="name" id="r_8" />&nbsp;<label for="r_8">Рубашечные</label></p>
+					<p class="pod_mn"><input class="r_button2" type="radio" name="name" id="r_9" />&nbsp;<label for="r_9">Рюшь</label></p>
+					<div class="barhat">
+						<p><a href="#">Бархат</a></p>
+						<p class="pod_mn2"><input class="r_button2" type="radio" name="name" id="r_9" />&nbsp;<label for="r_9">Рубашечные</label></p>
+						<p class="pod_mn2"><input class="r_button2" type="radio" name="name" id="r_9" />&nbsp;<label for="r_9">Рюшь</label></p>
+					</div>
+            </p>
+        </div>
+        </div>
+    </li>
+    <li class="accordion_item">
+    <div class="plate2">
+        <label class="accordion_trigger" for="toggle-02"><input class="r_button2" type="radio" name="name" id="r_10" />&nbsp;<label for="r_10">Костюмные ткани</label></p><img align="right" src="img/catalog19.png"></label>
+        <input type="radio" class="accordion_toggle" name="accordion-01" id="toggle-02" />
+        <div class="accordion_target">
+            <p>
+                	<p class="pod_mn"><input class="r_button2" type="radio" name="name" id="r_22" />&nbsp;<label for="r_22">Атлас</label></p>
+					<p class="pod_mn"><input class="r_button2" type="radio" name="name" id="r_23" />&nbsp;<label for="r_23">Кожа</label></p>
+					<p class="pod_mn"><input class="r_button2" type="radio" name="name" id="r_24" />&nbsp;<label for="r_24">Костюмные</label></p>
+					<p class="pod_mn"><input class="r_button2" type="radio" name="name" id="r_25" />&nbsp;<label for="r_25">Креп</label></p>
+					<p class="pod_mn"><input class="r_button2" type="radio" name="name" id="r_26" />&nbsp;<label for="r_26">Батис</label></p>
+					<p class="pod_mn"><input class="r_button2" type="radio" name="name" id="r_27" />&nbsp;<label for="r_27">Кружевные</label></p>
+					<p class="pod_mn"><input class="r_button2" type="radio" name="name" id="r_28" />&nbsp;<label for="r_28">Рубашечные</label></p>
+					<p class="pod_mn"><input class="r_button2" type="radio" name="name" id="r_29" />&nbsp;<label for="r_29">Рюшь</label></p>
+					<div class="barhat">
+						<p><a href="#">Бархат</a></p>
+						<p class="pod_mn2"><input class="r_button2" type="radio" name="name" id="r_29" />&nbsp;<label for="r_29">Рубашечные</label></p>
+						<p class="pod_mn2"><input class="r_button2" type="radio" name="name" id="r_29" />&nbsp;<label for="r_29">Рюшь</label></p>
+					</div>
+            </p>
+        </div>
+    </div>
+    </li>
+    <li class="accordion_item">
+    <div class="plate2">
+        <label class="accordion_trigger" for="toggle-03"><p><input class="r_button2" type="radio" name="name" id="r_11" />&nbsp;<label for="r_11">Трикотажные ткани</label></p><img align="right" src="img/catalog19.png"></label>
+        <input type="radio" class="accordion_toggle" name="accordion-01" id="toggle-03" />
+        <div class="accordion_target">
+            <p>
+                	<p class="pod_mn"><input class="r_button2" type="radio" name="name" id="r_32" />&nbsp;<label for="r_32">Атлас</label></p>
+					<p class="pod_mn"><input class="r_button2" type="radio" name="name" id="r_33" />&nbsp;<label for="r_33">Кожа</label></p>
+					<p class="pod_mn"><input class="r_button2" type="radio" name="name" id="r_34" />&nbsp;<label for="r_34">Костюмные</label></p>
+					<p class="pod_mn"><input class="r_button2" type="radio" name="name" id="r_35" />&nbsp;<label for="r_35">Креп</label></p>
+					<p class="pod_mn"><input class="r_button2" type="radio" name="name" id="r_36" />&nbsp;<label for="r_36">Батис</label></p>
+					<p class="pod_mn"><input class="r_button2" type="radio" name="name" id="r_37" />&nbsp;<label for="r_37">Кружевные</label></p>
+					<p class="pod_mn"><input class="r_button2" type="radio" name="name" id="r_38" />&nbsp;<label for="r_38">Рубашечные</label></p>
+					<p class="pod_mn"><input class="r_button2" type="radio" name="name" id="r_39" />&nbsp;<label for="r_39">Рюшь</label></p>
+					<div class="barhat">
+						<p><a href="#">Бархат</a></p>
+						<p class="pod_mn2"><input class="r_button2" type="radio" name="name" id="r_40" />&nbsp;<label for="r_40">Рубашечные</label></p>
+						<p class="pod_mn2"><input class="r_button2" type="radio" name="name" id="r_40" />&nbsp;<label for="r_40">Рюшь</label></p>
+					</div>
+            </p>
+        </div>
+    </div>
+    </li>
+    <li class="accordion_item">
+    <div class="plate2">
+        <label class="accordion_trigger" for="toggle-04"><p><input class="r_button2" type="radio" name="name" id="r_12" />&nbsp;<label for="r_12">Вильветовые ткани</label></p><img align="right" src="img/catalog19.png"></label>
+        <input type="radio" class="accordion_toggle" name="accordion-01" id="toggle-04" />
+        <div class="accordion_target">
+            <p>
+                	<p class="pod_mn"><input class="r_button2" type="radio" name="name" id="r_42" />&nbsp;<label for="r_42">Атлас</label></p>
+					<p class="pod_mn"><input class="r_button2" type="radio" name="name" id="r_43" />&nbsp;<label for="r_43">Кожа</label></p>
+					<p class="pod_mn"><input class="r_button2" type="radio" name="name" id="r_44" />&nbsp;<label for="r_44">Костюмные</label></p>
+					<p class="pod_mn"><input class="r_button2" type="radio" name="name" id="r_45" />&nbsp;<label for="r_45">Креп</label></p>
+					<p class="pod_mn"><input class="r_button2" type="radio" name="name" id="r_46" />&nbsp;<label for="r_46">Батис</label></p>
+					<p class="pod_mn"><input class="r_button2" type="radio" name="name" id="r_47" />&nbsp;<label for="r_47">Кружевные</label></p>
+					<p class="pod_mn"><input class="r_button2" type="radio" name="name" id="r_48" />&nbsp;<label for="r_48">Рубашечные</label></p>
+					<p class="pod_mn"><input class="r_button2" type="radio" name="name" id="r_49" />&nbsp;<label for="r_49">Рюшь</label></p>
+					<div class="barhat">
+						<p><a href="#">Бархат</a></p>
+						<p class="pod_mn2"><input class="r_button2" type="radio" name="name" id="r_50" />&nbsp;<label for="r_50">Рубашечные</label></p>
+						<p class="pod_mn2"><input class="r_button2" type="radio" name="name" id="r_501" />&nbsp;<label for="r_501">Рюшь</label></p>
+					</div>
+            </p>
+        </div>
+    </div>
+    </li>
+    <li class="accordion_item">
+    <div class="plate2">
+        <label class="accordion_trigger" for="toggle-05"><p><input class="r_button2" type="radio" name="name" id="r_13" />&nbsp;<label for="r_13">Джинсовые ткани</label></p><img align="right" src="img/catalog19.png"></label>
+        <input type="radio" class="accordion_toggle" name="accordion-01" id="toggle-05" />
+        <div class="accordion_target">
+            <p>
+                	<p class="pod_mn"><input class="r_button2" type="radio" name="name" id="r_52" />&nbsp;<label for="r_52">Атлас</label></p>
+					<p class="pod_mn"><input class="r_button2" type="radio" name="name" id="r_53" />&nbsp;<label for="r_53">Кожа</label></p>
+					<p class="pod_mn"><input class="r_button2" type="radio" name="name" id="r_54" />&nbsp;<label for="r_54">Костюмные</label></p>
+					<p class="pod_mn"><input class="r_button2" type="radio" name="name" id="r_55" />&nbsp;<label for="r_55">Креп</label></p>
+					<p class="pod_mn"><input class="r_button2" type="radio" name="name" id="r_56" />&nbsp;<label for="r_56">Батис</label></p>
+					<p class="pod_mn"><input class="r_button2" type="radio" name="name" id="r_57" />&nbsp;<label for="r_57">Кружевные</label></p>
+					<p class="pod_mn"><input class="r_button2" type="radio" name="name" id="r_58" />&nbsp;<label for="r_58">Рубашечные</label></p>
+					<p class="pod_mn"><input class="r_button2" type="radio" name="name" id="r_59" />&nbsp;<label for="r_59">Рюшь</label></p>
+					<div class="barhat">
+						<p><a href="#">Бархат</a></p>
+						<p class="pod_mn2"><input class="r_button2" type="radio" name="name" id="r_60" />&nbsp;<label for="r_60">Рубашечные</label></p>
+						<p class="pod_mn2"><input class="r_button2" type="radio" name="name" id="r_601" />&nbsp;<label for="r_601">Рюшь</label></p>
+					</div>
+            </p>
+        </div>
+    </div>
+    </li>
+    <li class="accordion_item">
+    <div class="plate2">
+        <label class="accordion_trigger" for="toggle-06"><p><input class="r_button2" type="radio" name="name" id="r_14" />&nbsp;<label for="r_14">Подкладочные ткани</label></p><img align="right" src="img/catalog19.png"></label>
+        <input type="radio" class="accordion_toggle" name="accordion-01" id="toggle-06" />
+        <div class="accordion_target">
+            <p>
+                	<p class="pod_mn"><input class="r_button2" type="radio" name="name" id="r_62" />&nbsp;<label for="r_62">Атлас</label></p>
+					<p class="pod_mn"><input class="r_button2" type="radio" name="name" id="r_63" />&nbsp;<label for="r_63">Кожа</label></p>
+					<p class="pod_mn"><input class="r_button2" type="radio" name="name" id="r_64" />&nbsp;<label for="r_64">Костюмные</label></p>
+					<p class="pod_mn"><input class="r_button2" type="radio" name="name" id="r_65" />&nbsp;<label for="r_65">Креп</label></p>
+					<p class="pod_mn"><input class="r_button2" type="radio" name="name" id="r_66" />&nbsp;<label for="r_66">Батис</label></p>
+					<p class="pod_mn"><input class="r_button2" type="radio" name="name" id="r_67" />&nbsp;<label for="r_67">Кружевные</label></p>
+					<p class="pod_mn"><input class="r_button2" type="radio" name="name" id="r_68" />&nbsp;<label for="r_68">Рубашечные</label></p>
+					<p class="pod_mn"><input class="r_button2" type="radio" name="name" id="r_69" />&nbsp;<label for="r_69">Рюшь</label></p>
+					<div class="barhat">
+						<p><a href="#">Бархат</a></p>
+						<p class="pod_mn2"><input class="r_button2" type="radio" name="name" id="r_70" />&nbsp;<label for="r_70">Рубашечные</label></p>
+						<p class="pod_mn2"><input class="r_button2" type="radio" name="name" id="r_701" />&nbsp;<label for="r_701">Рюшь</label></p>
+					</div>
+            </p>
+        </div>
+    </div>
+    </li>
+    <li class="accordion_item">
+    <div class="plate2">
+        <label class="accordion_trigger" for="toggle-07"><p><input class="r_button2" type="radio" name="name" id="r_15" />&nbsp;<label for="r_15">Театральный ассортимент</label></p><img align="right" src="img/catalog19.png"></label>
+        <input type="radio" class="accordion_toggle" name="accordion-01" id="toggle-07" />
+        <div class="accordion_target">
+            <p>
+                	<p class="pod_mn"><input class="r_button2" type="radio" name="name" id="r_82" />&nbsp;<label for="r_82">Атлас</label></p>
+					<p class="pod_mn"><input class="r_button2" type="radio" name="name" id="r_83" />&nbsp;<label for="r_83">Кожа</label></p>
+					<p class="pod_mn"><input class="r_button2" type="radio" name="name" id="r_84" />&nbsp;<label for="r_84">Костюмные</label></p>
+					<p class="pod_mn"><input class="r_button2" type="radio" name="name" id="r_85" />&nbsp;<label for="r_85">Креп</label></p>
+					<p class="pod_mn"><input class="r_button2" type="radio" name="name" id="r_86" />&nbsp;<label for="r_86">Батис</label></p>
+					<p class="pod_mn"><input class="r_button2" type="radio" name="name" id="r_87" />&nbsp;<label for="r_87">Кружевные</label></p>
+					<p class="pod_mn"><input class="r_button2" type="radio" name="name" id="r_88" />&nbsp;<label for="r_88">Рубашечные</label></p>
+					<p class="pod_mn"><input class="r_button2" type="radio" name="name" id="r_89" />&nbsp;<label for="r_89">Рюшь</label></p>
+					<div class="barhat">
+						<p><a href="#">Бархат</a></p>
+						<p class="pod_mn2"><input class="r_button2" type="radio" name="name" id="r_90" />&nbsp;<label for="r_90">Рубашечные</label></p>
+						<p class="pod_mn2"><input class="r_button2" type="radio" name="name" id="r_901" />&nbsp;<label for="r_901">Рюшь</label></p>
+					</div>
+            </p>
+        </div>
+    </div>
+    </li>
+    <li class="accordion_item">
+    <div class="plate2">
+        <label class="accordion_trigger" for="toggle-08"><p><input class="r_button2" type="radio" name="name" id="r_16" />&nbsp;<label for="r_16">Ткани для верхней одежды</label></p><img align="right" src="img/catalog19.png"></label>
+        <input type="radio" class="accordion_toggle" name="accordion-01" id="toggle-08" />
+        <div class="accordion_target">
+            <p>
+                	<p class="pod_mn"><input class="r_button2" type="radio" name="name" id="r_102" />&nbsp;<label for="r_102">Атлас</label></p>
+					<p class="pod_mn"><input class="r_button2" type="radio" name="name" id="r_103" />&nbsp;<label for="r_103">Кожа</label></p>
+					<p class="pod_mn"><input class="r_button2" type="radio" name="name" id="r_104" />&nbsp;<label for="r_104">Костюмные</label></p>
+					<p class="pod_mn"><input class="r_button2" type="radio" name="name" id="r_105" />&nbsp;<label for="r_105">Креп</label></p>
+					<p class="pod_mn"><input class="r_button2" type="radio" name="name" id="r_106" />&nbsp;<label for="r_106">Батис</label></p>
+					<p class="pod_mn"><input class="r_button2" type="radio" name="name" id="r_107" />&nbsp;<label for="r_107">Кружевные</label></p>
+					<p class="pod_mn"><input class="r_button2" type="radio" name="name" id="r_108" />&nbsp;<label for="r_108">Рубашечные</label></p>
+					<p class="pod_mn"><input class="r_button2" type="radio" name="name" id="r_109" />&nbsp;<label for="r_109">Рюшь</label></p>
+					<div class="barhat">
+						<p><a href="#">Бархат</a></p>
+						<p class="pod_mn2"><input class="r_button2" type="radio" name="name" id="r_129" />&nbsp;<label for="r_129">Рубашечные</label></p>
+						<p class="pod_mn2"><input class="r_button2" type="radio" name="name" id="r_130" />&nbsp;<label for="r_130">Рюшь</label></p>
+					</div>
+            </p>
+        </div>
+    </div>
+    </li>
+</ul>
+
+				<div class="show_all">
+					<button>Показать всё</button>
+					<button class="show_all2">Показать всё</button>
+				</div>
+				</div>
+			<div class="catalog2">
+				<p>Сортировать по: <a href="#">новинкам</a> <a href="#">цене по убыванию</a> <a href="#">цене по возрастанию</a> <a href="#">скидке</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Товаров на странице: <a href="#"><span>12</span></a><a href="#"><span>24</span></a><a href="#"><span>48</span></a><a href="#"><span>Все</sapn></a></p>
+			</div>
+			<div class="catalog3">
+				<p>Велюр стрейч Скандинавия <span>Б-5-2</span><br>Продолжения длинного<br>названия товара.</p>
+				<img class="catal4" src="img/catalog15.png">
+				<div class="row">
+					<p>2<br>цвета</p><a id="catalog2" style="cursor: pointer;"><img src="img/catalog9.png"></a><img id="catalog3" src="img/catalog10.png"><a id="catalog1" style="cursor: pointer;"><img src="img/catalog11.png"></a><p class="p300">300.00 руб</p>
+				</div>
+				<div class="row">
+					<a href="#"><img class="cat-btn" src="img/catalog12.png"></a><a href="#"><img class="cat-btn2" src="img/catalog13.png"></a>
+				</div>
+			</div>
+			<div class="catalog3">
+				<p>Велюр стрейч Скандинавия <span>Б-5-2</span></p>
+				<img src="img/catalog8.png">
+				<div class="row">
+					<p>2<br>цвета</p><a id="catalog5" style="cursor: pointer;"><img src="img/catalog9.png"></a><img id="catalog6" src="img/catalog10.png"><a id="catalog4" style="cursor: pointer;"><img src="img/catalog11.png"></a><p class="p300">300.00 руб</p>
+				</div>
+				<div class="row">
+					<a href="#"><img class="cat-btn" src="img/catalog12.png"></a><a href="#"><img class="cat-btn2" src="img/catalog13.png"></a>
+				</div>
+			</div>
+			<div class="catalog3">
+				<p>Велюр стрейч Скандинавия <span>Б-5-2</span><br>Продолжения длинного<br>названия товара.</p>
+				<img class="catal4" src="img/catalog16.png">
+				<div class="row">
+					<p>2<br>цвета</p><a id="catalog8" style="cursor: pointer;"><img src="img/catalog9.png"></a><img id="catalog9" src="img/catalog10.png"><a id="catalog7" style="cursor: pointer;"><img src="img/catalog11.png"></a><p class="p300">300.00 руб</p>
+				</div>
+				<div class="row">
+					<a href="#"><img class="cat-btn" src="img/catalog12.png"></a><a href="#"><img class="cat-btn2" src="img/catalog13.png"></a>
+				</div>
+			</div>
+			<div class="catalog3">
+				<p>Велюр стрейч Скандинавия <span>Б-5-2</span></p>
+				<img class="catal3" src="img/catalog14.png">
+				<div class="row">
+					<p>2<br>цвета</p><a id="catalog11" style="cursor: pointer;"><img src="img/catalog9.png"></a><img id="catalog12" src="img/catalog10.png"><a id="catalog10" style="cursor: pointer;"><img src="img/catalog11.png"></a><p class="p300">300.00 руб</p>
+				</div>
+				<div class="row">
+					<a href="#"><img class="cat-btn" src="img/catalog12.png"></a><a href="#"><img class="cat-btn2" src="img/catalog13.png"></a>
+				</div>
+			</div>
+			<div class="catalog3">
+				<p>Велюр стрейч Скандинавия <span>Б-5-2</span></p>
+				<img class="catal3" src="img/catalog14.png">
+				<div class="row">
+					<p>2<br>цвета</p><a id="catalog14" style="cursor: pointer;"><img src="img/catalog9.png"></a><img id="catalog15" src="img/catalog10.png"><a id="catalog13" style="cursor: pointer;"><img src="img/catalog11.png"></a><p class="p300">300.00 руб</p>
+				</div>
+				<div class="row">
+					<a href="#"><img class="cat-btn" src="img/catalog12.png"></a><a href="#"><img class="cat-btn2" src="img/catalog13.png"></a>
+				</div>
+			</div>
+			<div class="catalog3">
+				<p>Велюр стрейч Скандинавия <span>Б-5-2</span></p>
+				<img class="catal3" src="img/catalog14.png">
+				<div class="row">
+					<p>2<br>цвета</p><a id="catalog17" style="cursor: pointer;"><img src="img/catalog9.png"></a><img id="catalog18" src="img/catalog10.png"><a id="catalog16" style="cursor: pointer;"><img src="img/catalog11.png"></a><p class="p300">300.00 руб</p>
+				</div>
+				<div class="row">
+					<a href="#"><img class="cat-btn" src="img/catalog12.png"></a><a href="#"><img class="cat-btn2" src="img/catalog13.png"></a>
+				</div>
+			</div>
+			<div class="catalog_lft">
+				<h1>Вы смотрели</h1>
+				<p class="catalog_lft1">Велюр стрейч Скандинавия</p>
+				<a><img id="catalog_lft2" class="catalog_lft2" src="img/catalog5.png"></a>
+				<img id="catalog_lft3" class="catalog_lft3" src="img/catalog6.png">
+				<a><img id="catalog_lft4" class="catalog_lft4" src="img/catalog7.png"></a>
+				<p class="catalog_lft5">300.00 руб<br><span>375.00 руб</span></p>
+			</div>
+			<div class="catalog3">
+				<p>Велюр стрейч Скандинавия <span>Б-5-2</span></p>
+				<img class="catal3" src="img/catalog14.png">
+				<div class="row">
+					<p>2<br>цвета</p><a id="catalog20" style="cursor: pointer;"><img src="img/catalog9.png"></a><img id="catalog21" src="img/catalog10.png"><a id="catalog19" style="cursor: pointer;"><img src="img/catalog11.png"></a><p class="p300">300.00 руб</p>
+				</div>
+				<div class="row">
+					<a href="#"><img class="cat-btn" src="img/catalog12.png"></a><a href="#"><img class="cat-btn2" src="img/catalog13.png"></a>
+				</div>
+			</div>
+			<div class="catalog3">
+				<p>Велюр стрейч Скандинавия <span>Б-5-2</span></p>
+				<img class="catal3" src="img/catalog14.png">
+				<div class="row">
+					<p>2<br>цвета</p><a id="catalog23" style="cursor: pointer;"><img src="img/catalog9.png"></a><img id="catalog24" src="img/catalog10.png"><a id="catalog22" style="cursor: pointer;"><img src="img/catalog11.png"></a><p class="p300">300.00 руб</p>
+				</div>
+				<div class="row">
+					<a href="#"><img class="cat-btn" src="img/catalog12.png"></a><a href="#"><img class="cat-btn2" src="img/catalog13.png"></a>
+				</div>
+			</div>
+			<div class="catalog3">
+				<p>Велюр стрейч Скандинавия <span>Б-5-2</span></p>
+				<img class="catal3" src="img/catalog14.png">
+				<div class="row">
+					<p>2<br>цвета</p><a id="catalog26" style="cursor: pointer;"><img src="img/catalog9.png"></a><img id="catalog27" src="img/catalog10.png"><a id="catalog25" style="cursor: pointer;"><img src="img/catalog11.png"></a><p class="p300">300.00 руб</p>
+				</div>
+				<div class="row">
+					<a href="#"><img class="cat-btn" src="img/catalog12.png"></a><a href="#"><img class="cat-btn2" src="img/catalog13.png"></a>
+				</div>
+			</div>
+			<div class="bot_mn">
+				<p><a class="prev1" href="#">Предидущая</a><p class="cifr cifr1"><a href="#">1</a></p><p class="cifr"><a href="#">2</a></p><p class="cifr"><a href="#">3</a></p><a class="next1" href="#">Следущая</a></p>
+			</div>
+			<div id="openModal5" class="modalDialog5">
+	<div>
+		<a href="#close" title="Закрыть" class="close"></a>
+		<h2>БАТИСТ ОПТОМ</h2>
+		<div class="mod_5">
+			<div class="mod_51">
+				
+			</div>
+			<div class="mod_52">
+				<p>Выберите цвет:</p>
+				<img src="img/img-2.png">
+				<img src="img/img-2.png">
+				<img src="img/img-2.png">
+				<img src="img/img-2.png">
+			</div>
+			<div class="mod_53">
+				<h2>ПБ-24-3-10749</h2>
+				<h1>Плательный батист</h1>
+				<p><span>Состав:</span> 100% хлопок<br>
+				<span>Ширина:</span> 1,4 м<br>
+				<span>Цвет:</span>  мятно-голубой<br>
+				<span>Плотность:</span>  100 гр/м.кв.<br>
+				<span>Производитель:</span> Китай</p>
+				<p class="mod_53p">Мягка ткань, текст, и ткань, нитки.<br>
+Мягка ткань, текст, и ткань, нитки.<br>
+Мягка ткань, текст, и ткань, нитки.<br>
+Мягка ткань, текст, и ткань, нитки.<br>
+Мягка ткань, текст, и ткань, нитки.</p>
+				<p><a href="#"><img src="img/img-3.png"></a></p>
+				<p class="mod_53pp">Цена за метр:<span>250 руб.</span></p>
+				<button>Купить</button>
+			</div>
+		</div>
+	</div>
+</div>
+		</div>
+	</section>
+	
+	<footer id="fot_pannier">
+		<div class="container">
+			<div class="main_logo">
+				<img src="img/main_logo.png"><br><p>ткани оптом и в розницу</p>
+			</div>
+			<div class="copyright">
+				<p>Copyright 2011-2014 © Каролина — оптовая и розничная продажа тканей. Все права защищены.</p>
+			</div>
+		</div>
+	</footer>
+	<script type="text/javascript">
+		document.getElementById('catalog1').onclick=function(){
+		document.getElementById('catalog3').src="img/catalog10_2.png";
+	}
+		document.getElementById('catalog2').onclick=function(){
+		document.getElementById('catalog3').src="img/catalog10.png";
+	}
+		document.getElementById('catalog4').onclick=function(){
+		document.getElementById('catalog6').src="img/catalog10_2.png";
+	}
+		document.getElementById('catalog5').onclick=function(){
+		document.getElementById('catalog6').src="img/catalog10.png";
+	}
+		document.getElementById('catalog7').onclick=function(){
+		document.getElementById('catalog9').src="img/catalog10_2.png";
+	}
+		document.getElementById('catalog8').onclick=function(){
+		document.getElementById('catalog9').src="img/catalog10.png";
+	}
+		document.getElementById('catalog10').onclick=function(){
+		document.getElementById('catalog12').src="img/catalog10_2.png";
+	}
+		document.getElementById('catalog11').onclick=function(){
+		document.getElementById('catalog12').src="img/catalog10.png";
+	}
+		document.getElementById('catalog13').onclick=function(){
+		document.getElementById('catalog15').src="img/catalog10_2.png";
+	}
+		document.getElementById('catalog14').onclick=function(){
+		document.getElementById('catalog15').src="img/catalog10.png";
+	}
+		document.getElementById('catalog16').onclick=function(){
+		document.getElementById('catalog18').src="img/catalog10_2.png";
+	}
+		document.getElementById('catalog17').onclick=function(){
+		document.getElementById('catalog18').src="img/catalog10.png";
+	}
+		document.getElementById('catalog19').onclick=function(){
+		document.getElementById('catalog21').src="img/catalog10_2.png";
+	}
+		document.getElementById('catalog20').onclick=function(){
+		document.getElementById('catalog21').src="img/catalog10.png";
+	}
+		document.getElementById('catalog22').onclick=function(){
+		document.getElementById('catalog24').src="img/catalog10_2.png";
+	}
+		document.getElementById('catalog23').onclick=function(){
+		document.getElementById('catalog24').src="img/catalog10.png";
+	}
+		document.getElementById('catalog25').onclick=function(){
+		document.getElementById('catalog27').src="img/catalog10_2.png";
+	}
+		document.getElementById('catalog26').onclick=function(){
+		document.getElementById('catalog27').src="img/catalog10.png";
+	}
+		document.getElementById('catalog_lft4').onclick=function(){
+		document.getElementById('catalog_lft3').src="img/catalog6_2.png";
+	}
+		document.getElementById('catalog_lft2').onclick=function(){
+		document.getElementById('catalog_lft3').src="img/catalog6.png";
+	}
+	</script>
+</body>
+</html>
