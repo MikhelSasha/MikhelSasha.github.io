@@ -1,0 +1,594 @@
+body p {
+	margin: 0;
+}
+.content {
+	margin: 0 auto;
+	background: #ffffff;
+	height: 75px;
+}
+.main {
+	display: block;
+	min-height: 800px;
+	background-image: url(../img/img-0.jpg) ;
+	background-position: center;
+	background-size: cover;
+}
+.wrapper {
+	min-width: 1300px;
+	margin: 0;
+}
+.logo {
+	height: 59px;
+	display: block;
+	background: #bf162b;
+	float: left;
+	padding: 8px 0;
+}
+#p_big {
+	text-align: center;
+	color: #ffffff;
+	font: 30px Garamond;
+	margin: 0px 37px;
+	padding: 0;
+}
+#p_sm {
+	text-align: center;
+	color: #ffffff;
+	font: 16px Garamond;
+	margin: 0px 30px;
+	padding: 0;
+}
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+nav ul li {
+	height: 72px;
+	float: left;
+}
+header nav ul li a {
+	font: 20px Garamond;
+    color: #737373;
+	display: block;
+	text-decoration: none;
+	padding: 27px 30px 24px 30px;
+	border-left: 1px solid #e8e8e8;
+}
+header nav ul li a:hover {
+	background: #f0f0f0;
+}
+header nav ul li a:active {
+	box-shadow: 0 0 5px rgba(0,0,0,0.8) insert;
+}
+nav ul li:last-child {
+	border-right: 1px solid #e8e8e8;
+}
+.phone {
+	width: 155px;
+    float: right;
+    margin-right: 35px;
+    text-align: right;
+    margin-top: 15px;
+}
+#tel {
+	font: 20px MyriadPro-Bold;
+}
+#tel2 {
+	font: 14px MyriadPro-Regular;
+	color: #bf162b;
+	border-bottom: 1px dashed #bf162b;
+}
+
+footer nav ul li a {
+	font: 20px Garamond;
+    color: #737373;
+	display: block;
+	text-decoration: none;
+	padding: 27px 30px 26px 30px;
+	border-left: 1px solid #e8e8e8;
+}
+footer nav ul li a:hover {
+	background: #f0f0f0;
+}
+footer nav ul li a:active {
+	box-shadow: 0 0 5px rgba(0,0,0,0.8) insert;
+}
+.main h1{
+	color: #fff;
+	font-family: 'Garamond', arial;
+	font-size: 40px;
+	padding-top: 100px;
+	text-align: center;
+	margin: 0 auto 65px auto;
+	width: 950px;
+}
+
+.columns {
+	margin: 0 auto;
+	margin: 70px 0px 0 0px;
+}
+.line {
+    width: 1000px;
+    margin-left: 120px;
+    height: 1px;
+    background: #9b9c99;
+    position: relative;
+    top: 97px;
+}
+#mleft {
+    margin-left: -60px;
+}
+.number {
+    width: 210px;
+    float: left;
+    margin-left: 15px;
+    text-align: center;
+}
+.number span {
+    font: 50px CharcoalCY;
+    color: #fff;
+}
+.number p {
+    font: 18px Garamond;
+    color: #fff;
+}
+#center-w180 {
+    width: 180px;
+    float: left;
+}
+#center-w165 {
+    width: 165px;
+    float: left;
+}
+#right-w180 {
+	width: 180px;
+}
+#right-w200 {
+	width: 180px;
+}
+#col:first-child {
+	margin-left: 160px;
+}
+#col {
+	text-align: center;
+	width: 225px;
+    float: left;
+    margin-left: 30px;
+}
+
+#col p {
+	font: 20px Garamond;
+    color: #fff;
+    margin-top: 15px;
+    text-align: center;
+}
+#spor {
+	text-align: center;
+	margin: 300px 0 0 0;
+}
+#btn {
+	border: none;
+	text-align: center;
+	padding: 0;
+}
+.numbers {
+	margin: 50px 180px 0 180px;
+}
+.welcome {
+	min-height: 680px;
+	background: #ffffff;
+	margin: 150px 0 0 150px;
+	color: #808080;
+}
+.welcome img {
+	float:left;
+	margin: 0 22px 0 0;
+}
+.welcome h3 {
+	margin-right: 150px;
+	margin-bottom: 28px;
+	font-family: 'Garamond', arial;
+	font-size: 25pt;
+	font-weight: normal;
+}
+.welcome p {
+	font-size: 15pt;
+	margin-right: 150px;
+	font-family: 'Garamond', arial;
+}
+.form {
+	min-height: 800px;
+	background: url(../img/img-2.png) no-repeat center top;
+	background-size: cover;
+}
+.free-cons {
+	position: relative;
+	top: 130px;
+	left: 760px;
+	height: 530px;
+	width: 400px;
+	background: #fff;
+}
+.form .free-cons p {
+	font-family: 'Garamond', arial;
+	font-size: 18pt;
+	padding: 45px 20px 25px 20px;
+	text-align: center;
+}
+.colortext {
+	color: red;
+}
+.form-group {
+  margin: 25px 0 0px 50px;
+  display: block;
+   }
+.form-group input{
+  	font-family: 'Garamond', arial;
+  	font-size: 14pt;
+    display: block;
+    width: 300px;
+    border: 1px solid #ccc;
+    text-indent: 28px;
+    background-color: transparent; 
+    padding: 17px 0 17px 0;
+}
+.main_form button {
+  padding: 0;
+  border: none;
+  margin-top: 25px;
+  margin-left: 50px;
+}
+.main_form button img{
+	width: 300px;
+}
+/*----------------------SOLUTION------------------------------------*/
+.solution {
+	display: block;
+    width: 1300px;
+    margin: 0 auto;
+}
+.solution h2 {
+	font-family: 'Garamond', arial;
+  	font-size: 32pt;
+  	text-align: center;
+  	margin-top: 85px;
+  	margin-bottom: 60px;
+  	font-weight: normal;
+  	color: #666666;
+}
+#m150 {
+    margin-left: 80px;
+}
+.task-block {
+    width: 260px;
+    float: left;
+    margin-left: 30px;
+}
+.p-one {
+    font: 18px Garamond;
+    color: #333;
+    border: 1px solid #cccccc;
+    border-bottom: none;
+    padding: 30px 25px;
+    text-align: center;
+    height: 90px;
+}
+.p-two {
+    height: 200px;
+    background: #bf162b;
+    text-align: center;
+    padding: 15px 0;
+}
+.p-two p {
+    font: 18px Garamond;
+    color: #fff;
+    border: 1px solid #cc4555;
+    width: 200px;
+    height: 170px;
+    margin: 0 auto;
+    padding: 15px 15px;
+}
+.p-three {
+    font: 18px Garamond;
+    color: #333;
+    padding: 20px 0 20px 20px;
+}
+.ptop {
+    padding: 10px;
+    height: 130px;
+}
+.clear {
+    clear: both;
+}
+.task-bottom {
+    width: 1145px;
+    margin: 65px auto 0 auto;
+    border-top: 1px solid #d9d9d9;
+    padding-top: 15px;
+}
+.task-bottom p {
+    font: 16px Garamond;
+    color: #4c4c4c;
+}
+.task {
+    display: block;
+    background: url(../img/boock.jpg) no-repeat center bottom;
+    padding: 0 0 15px 0;
+
+}
+/*---------------------------DO-WORK-----------------------------*/
+.do-work {
+    background: url(../img/bg3.jpg) no-repeat center bottom;
+    background-size: cover;
+    padding: 80px 0 85px 0;
+}
+.work-content {
+    width: 1300px;
+    margin: 0 auto;
+}
+.do-work h1 {
+    font: 49px Garamond;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 45px;
+}
+.work-info {
+    width: 1020px;
+    margin: 0 auto;
+    padding: 30px 0;
+    border-bottom: 1px solid #736f68;
+}
+#wlast {
+    border: none;
+    margin-bottom: 70px;
+}
+.work-block {
+    width: 200px;
+    height: 125px;
+    text-align: center;
+    float: left;
+    border-right: 1px solid #736f68;
+}
+.work-block p {
+    font: 20px Garamond;
+    color: #fff;
+    margin: 15px 0 0 0;
+    width: 150px;
+    margin: 0 auto;
+}
+#bordnone {
+    border: none;
+}
+/*------------------------SCHEME-OF-WORK---------------------------*/
+.scheme-of-work {
+    min-height: 831px;
+    background: url(../img/bg-scheme.jpg) repeat;
+    padding: 65px 0;
+}
+.scheme-content {
+	width: 1300px;
+    margin: 0 auto;
+}
+.scheme-of-work h1 {
+    font: 49px Garamond;
+    color: #4c4c4c;
+    text-align: center;
+    margin-bottom: 75px;
+}
+.plan-block-left {
+    width: 220px;
+    float: left;
+    margin-left: 140px;
+}
+.plan-l1 {
+    margin: 195px 15px 0 0;
+    text-align: right;
+}
+.plan-l1 h2 {
+    font: 23px System bold;
+    color: #4d4d4d;
+    font-weight: bold;
+    margin: 0;
+}
+.plan-l1 p {
+    font: 20px Garamond;
+    color: #4d4d4d;
+}
+#plan-l2 {
+    width: 250px;
+    margin: 165px 0 0 0;
+    position: relative;
+    right: -50px;
+    text-align: right;
+}
+.plan-block-center {
+    width: 573px;
+    float: left;
+    text-align: center;
+}
+.plan-l3 {
+    width: 215px;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+    z-index: 1;
+}
+.plan-l3 h2 {
+    font: 25px System;
+    color: #4d4d4d;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+.plan-l3 p {
+    font: 20px Garamond;
+    color: #4d4d4d;
+}
+.plan-l3 p a {
+    font: 20px Garamond;
+    color: #bf162b;
+    text-decoration: underline;
+}
+.plan-block-center img {
+    position: relative;
+    z-index: 0;
+    margin-top: -160px;
+}
+.plan-block-right {
+    width: 300px;
+    float: left;
+}
+.plan-l4 {
+    margin: 200px 0 0 15px;
+    text-align: left;
+    float: left;
+}
+.plan-l4 h2 {
+    font: 23px System;
+    color: #4d4d4d;
+    width: 250px;
+    float: left;
+    font-weight: bold;
+    margin: 0;
+}
+.plan-l4 p {
+    font: 20px Garamond;
+    color: #4d4d4d;
+    width: 300px;
+    float: left;
+}
+#plan-l5 {
+    margin: 135px 0 0 -70px;
+}
+.button-one {
+    width: 320px;
+    margin: 95px auto 100px auto;
+    height: 60px;
+    background: #bf162b;
+    border: none;
+    border-bottom: 5px solid #a31325;
+    cursor: pointer;
+}
+.button-one img {
+    width: 16px;
+    float: left;
+    margin: 25px 25px 0 30px;
+    text-decoration: none;
+    border: none;
+    padding: 0;
+}
+#but-two {
+    margin: 70px auto 0 auto;
+}
+#but-two b {
+    padding-left: 20px;
+}
+.button-one b {
+    width: 185px;
+    float: left;
+    padding: 12px 0 10px 45px;
+    font: 14px System;
+    line-height: 20px;
+    font-weight: bold;
+    color: #fff;
+    border-left: 2px solid #cc4555;
+    margin-top: 10px;
+    text-align: left;
+    text-transform: uppercase;
+}
+/*--------------------------WHY-WE----------------------------------*/
+.why-we {
+	min-height: 585px;
+	background: url(../img/why-we.png) no-repeat center bottom;
+	background-size: cover;
+	padding: 75px 0;
+	margin: 0;
+}
+.why-content {
+    width: 1300px;
+    margin: 0 auto;
+}
+.why-content h1 {
+    font: 49px Garamond;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+}
+.question-block {
+    width: 415px;
+    float: left;
+    margin: 65px 15px 0 0;
+}
+.question-block span {
+    width: 81px;
+    height: 150px;
+    padding: 50px 5px 0 0;
+    float: left;
+    background: url(../img/circle.png) no-repeat;
+    font: 80px Garamond;
+    text-align: right;
+    color: #bec0c1;
+}
+.question-info {
+    width: 295px;
+    float: right;
+}
+.question-info h2 {
+    font: 20px System;
+    color: #fff;
+    margin: 20px 0 15px 0;
+}
+.question-info p {
+    font: 20px Garamond;
+    color: #fff;
+}
+.ml150 {
+    margin: 65px 50px 0 150px;
+}
+/*--------------------------CONTACTS--------------------------------*/
+.contacts {
+	min-height: 800px;
+	background-image: url(../img/map.png);
+	background-position: center;
+	background-size: cover;
+	margin: 0 auto;
+}
+.call-me {
+	position: relative;
+	top: 130px;
+	left: 670px;
+	height: 530px;
+	width: 400px;
+	background: #fff;
+}
+.call-me p {
+	font-family: 'Garamond', arial;
+	font-size: 17pt;
+	padding: 45px 30px 25px 30px;
+	text-align: center;
+}
+.adress {
+	position: relative;
+	height: 230px;
+	width: 300px;
+	left: 240px;
+	top: -320px;
+	background-image: url(../img/contacts.png);
+}
+.adress p {
+	padding-top: 50px;
+	font-family: 'Garamond', arial;
+	font-size: 13pt;
+	text-align: center;
+}
+#adress-mob {
+	font-family: System;
+	color: #bf162b;
+	font-weight: bold;
+	font-size: 17pt;
+}
+.full_content {
+	width: 1300px;
+	margin: 0 auto;
+	display: block;
+}
