@@ -1,0 +1,459 @@
+@font-face {
+    font-family: "Roboto Light";
+    src: url(../fonts/RobotoLight.ttf);
+}
+@font-face {
+    font-family: "Roboto Black";
+    src: url(../fonts/RobotoBlack.ttf);
+}
+@font-face {
+    font-family: "Roboto Condensed";
+    src: url(../fonts/RobotoCondensed.ttf);
+}
+@font-face {
+    font-family: "Roboto Thin";
+    src: url(../fonts/RobotoThin.ttf);
+}
+
+.main-menu {
+	margin: 80px 0 0 -15px;
+}
+
+.main-menu a {
+	color: #a3a3a3;
+	padding: 5px 15px;
+	text-transform: uppercase;
+}
+
+.main-menu a:hover {
+	font-family: "Roboto Black", sans-serif;
+	font-weight: 600;
+	color: #2e2e2e;
+	text-decoration: none;
+	border-radius: 15px;
+	border: 1px solid #2e2e2e;
+}
+
+.main-menu a:focus {
+	text-decoration: none;
+}
+
+.main-menu ul li {
+	font-family: "Roboto Light", sans-serif;
+	font-size: 16px;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.main-menu ul {
+	margin: 0;
+  padding: 0;
+}
+
+.main-menu li {
+	display: inline-block;
+}
+
+.toggle-mnu {
+	display: none;
+}
+
+.main-logo {
+	margin: 30px 0 0 0;
+}
+
+.toggle-mnu {
+  width: 28px;
+  height: 30px;
+}
+
+.toggle-mnu span:after,
+.toggle-mnu span:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: -9px;
+}
+.toggle-mnu span:after{
+  top: 9px;
+}
+.toggle-mnu span {
+  position: relative;
+  display: block;
+}
+
+.toggle-mnu span,
+.toggle-mnu span:after,
+.toggle-mnu span:before {
+  width: 100%;
+  height: 5px;
+  background-color: #888;
+  transition: all 0.3s;
+  backface-visibility: hidden;
+  border-radius: 2px;
+}
+
+/* on activation */
+.toggle-mnu.on span {
+  background-color: transparent;
+}
+.toggle-mnu.on span:before {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+.toggle-mnu.on span:after {
+  transform: rotate(-45deg) translate(7px, -8px);
+}
+.toggle-mnu.on + #menu {
+  opacity: 1;
+  visibility: visible;
+}
+
+#menu {
+  position: absolute;
+  z-index: 10;
+  color: #999;
+  width: 300px;
+  padding: 10px;
+  font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
+  text-align: center;
+  border-radius: 4px;
+  background: white;
+  box-shadow: 0 1px 8px rgba(0,0,0,0.05);
+  /* just for this demo */
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity .4s;
+}
+#menu:after {
+  position: absolute;
+  top: -15px;
+  left: 95px;
+  content: "";
+  display: block;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 20px solid white;
+}
+.responsive-mnu ul, .responsive-mnu li, .responsive-mnu li a {
+  list-style: none;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+.responsive-mnu li a {
+	text-transform: uppercase;
+  padding: 5px;
+  color: #888;
+  text-decoration: none;
+  transition: all .2s;
+}
+.responsive-mnu li a:hover,
+.responsive-mnu li a:focus {
+  background: #999;
+  color: #fff;
+}
+
+.main-logo h2 {
+	font-family: "Roboto Black", sans-serif;
+	font-size: 60px;
+	color: #2e2e2e;
+	float: right;
+	display: block;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+.main-logo img {
+	display: block;
+	float: right;
+	width: 80px;
+	height: auto;
+	margin: 7px 4px 0 0;
+}
+
+.subscr h2 {
+	font-family: "Roboto Black", sans-serif;
+	font-size: 48px;
+	text-transform: uppercase;
+	margin: 0 0 20px 0;
+	padding-top: 35px;
+	border-top: 1px solid #2e2e2e;
+	display: inline-block;
+}
+.subscr p {
+	font-family: "Roboto Black", sans-serif;
+	font-size: 10px;
+	font-weight: 400;
+	color: #2e2e2e;
+	margin: 0 0 20px 0;
+	padding-right: 80px;
+	text-transform: uppercase;
+}
+.subscr span {
+	color: #ede120;
+}
+.objective {
+	margin-bottom: 100px;
+}
+.objective img {
+	width: 100%;
+	cursor: pointer;
+}
+.popup-obj img {
+	width: 100%;
+	height: 100%;
+}
+.category {
+	margin-top: 110px;
+}
+.category img {
+	cursor: pointer;
+	width: 100%;
+}
+.category img:hover {
+	content:url(../img/icon-hover.png);
+	transition: ease 1s;
+}
+.category .col {
+	display: inline-block;
+	padding: 0 7px 0 7px;
+  width: 24.2%;
+}
+.category .col p {
+	font-family: "Roboto Thin", sans-serif;
+	color: #070707;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: 600;
+	margin: 10px 0 0 0;
+}
+.form-category {
+	border-radius: 20px;
+	top: 70%;
+  left: 15%;
+	position: absolute;
+	width: 70%;
+	height: 150px;
+	background: #6eb19e;
+	display: none;
+	z-index: 10;
+}
+
+.sect-2 {
+	width: 100%;
+	background-size: cover;
+}
+.subscr-2 h2 {
+    font-family: "Roboto Black", sans-serif;
+    color: #fff;
+    text-align: right;
+    font-size: 48px;
+    text-transform: uppercase;
+    margin: 30px 0 70px 0;
+}
+.subscr-2 span {
+	color: #ede120;
+}
+.subscr-2 p {
+	font-family: "Roboto Black", sans-serif;
+	font-size: 10px;
+	text-align: right;
+	font-weight: 400;
+	color: #fff;
+	margin: 0 0 20px 0;
+	text-transform: uppercase;
+}
+.studio {
+	margin-bottom: 30px;
+}
+.studio img {
+	width: 100%;
+	box-shadow: 0 0 14px rgba(0,0,0,0.7);
+}
+.portfolio h2 {
+	font-family: "Roboto Black", sans-serif;
+	font-size: 48px;
+	color: #fff;
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+	margin-top: 205px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+.works img {
+	margin: 5px;
+	float: right;
+	width: 30%;
+	height: auto;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.order button{
+	font-family: "Roboto Light", sans-serif;
+	font-size: 24px;
+	display:block;
+  width: auto;
+  margin: 10px auto;
+  color: #2e2e2e;
+  padding: 5px 15px;
+  text-transform: uppercase;
+  background: none;
+  border-radius: 25px;
+  border: 1.5px solid #2e2e2e;
+  letter-spacing: 1px;
+  box-shadow: none;
+  cursor: pointer;
+  outline: none;
+}
+.rules h2 {
+	font-family: "Roboto Condensed";
+	font-size: 40px;
+	text-transform: uppercase;
+	color: #2e2e2e;
+	margin: 20px 0;
+}
+.rules ul {
+	margin-left: -20px;
+}
+.rules ul li {
+	font-family: "Roboto Condensed";
+	font-size: 18px;
+	color: #2e2e2e;
+}
+.map {
+	width: 311px;
+	height: 100%;
+	margin: 15px auto 40px auto;
+	display: block;
+}
+.form-order{
+	display: none;
+	margin: 20px 0;
+}
+.form-order input {
+	display: block;
+	margin: 10px auto;
+	padding: 5px 0 5px 15px;
+	width: 280px;
+}
+.form-order .order-btn {
+	width: 100px;
+	border-radius: 15px;
+	border: 1px solid #2c2c2c;
+	background: none;
+	padding: 5px 10px;
+	text-transform: uppercase;
+}
+
+.anim-1 {
+	animation-delay: 0.4s;
+}
+.anim-2 {
+	animation-delay: 0.8s;
+}
+.anim-3 {
+	animation-delay: 1.2s;
+}
+.anim-4 {
+	animation-delay: 1.6s;
+}
+.anim-5 {
+	animation-delay: 2s;
+}
+body .map-canvas {
+	width: 311px; 
+	height: 300px;
+}
+body .more-span {
+	color: #2c2c2c;
+}
+body .span-2 {
+	color: #fff;
+}
+.btn-more {
+	padding: 2px 30px;
+	background: none;
+	font-weight: bold;
+	border-radius: 15px;
+	border: 1px solid #2c2c2c;
+	font-size: 18px;
+	outline: none;
+	display: none;
+}
+.more-2 {
+	color: #fff;
+	border: 1px solid #fff;
+}
+.footer {
+	height: 170px;
+	width: 100%;
+	background-image: url(../img/trees_futher.jpg);
+	background-size: cover;
+}
+.contacts h2 {
+	font-family: "Roboto Black", sans-serif;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin: 18px 0 60px 0;
+}
+.contacts p {
+	font-family: "Roboto Thin", sans-serif;
+	color: #fff;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 0;
+}
+.form-category p {
+	display: inline-block;
+	text-align: center;
+	text-transform: uppercase;
+	color: #fff;
+	margin: 20px;
+}
+.box_window {
+  width:700px;
+  position:fixed;
+  top:15%;
+  left:50%;
+  margin-left:-350px;
+  z-index:11;
+  display:none;
+}
+.box_window_in {
+  position: relative;
+  overflow-y:auto;
+}
+.box_title {
+  position: absolute;
+  left: 0px;
+  top: -30px;
+  color: #fff;
+}
+.bw_close {
+  position:absolute;
+  top: -25px;
+  font-size: 10px;
+  color: #fff;
+  right:0px;
+  cursor:pointer;
+  z-index: 2;
+}
+.mask {
+  position:fixed;
+  background:rgba(0, 0, 0, 0.5);
+  display:none;
+  height:100%;
+  width: 100%;
+  z-index:10;
+}
+.to_blur.blur {
+ -webkit-filter: blur(5px);
+ -moz-filter: blur(5px);
+ -o-filter: blur(5px);
+ -ms-filter: blur(5px);
+ filter: blur(5px);
+}

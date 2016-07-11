@@ -1,0 +1,159 @@
+@media screen and (max-width: 1199px) {
+	.category {
+		margin-top: 70px;
+	}
+	.category .col p {
+		font-size: 10px;
+	}
+	body .category .col-lg p {
+		font-size: 9.1px;
+	}
+	.subscr p {
+		padding-right: 30px;
+	}
+	.portfolio h2 {
+		margin-top: 155px;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.subscr-2 h2 {
+		font-size: 42px;
+		margin: 30px 0 30px 0;
+	}
+	.portfolio h2 {
+		margin-top: 100px;
+	}
+	.subscr h2 {
+		font-size: 38px;
+	}
+	.subscr p {
+		padding-right: 0px;
+	}
+	.category .col {
+		width: 24%;
+		padding: 0;
+	}
+	.category .col p {
+		font-size: 10px;
+	}
+	body .category .col-lg p {
+		font-size: 8.4px;
+	}
+	.footer {
+		height: 128px;
+	}
+	.contacts h2 {
+		margin: 18px 0 18px 0;
+	}
+	.rules ul li {
+		font-size: 16px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.more-span {
+		display: none;
+	}
+	.btn-more {
+		display: block;
+		margin: 0 0 20px 0;
+	}
+	.box_window {
+  	width:520px;
+  	margin-left:-260px;
+	}
+	.main-menu {
+		display: none;
+	}
+	.toggle-mnu {
+		display: block;
+		margin: 40px 0 0 0;
+		padding-top: 10px;
+	}
+	.main-logo {
+    margin: 40px 0 0 0;
+	}
+	.main-logo h2 {
+    font-size: 30px;
+    text-align: right;
+    float: right;
+	}
+	.main-logo img {
+		width: 40px;
+		margin: 3px 3px 5px 0;
+	}
+	.sect-1 {
+		border-top: 2px solid #2e2e2e;
+	}
+	.subscr h2 {
+		border: none;
+	}
+	.objective {
+		margin-bottom: 0px;
+	}
+	.category {
+		margin: 23px 0;
+	}
+	.category .col p {
+		display: none;
+	}
+	.category .col {
+		width: 23.9%;
+		padding: 0;
+	}
+	.portfolio h2 {
+		margin-top: 0px;
+	}
+	.works {
+		margin-right: 30px;
+	}
+	.rules h2 {
+		text-align: center;
+	}
+	.rules ul {
+    margin-left: 40px;
+	}
+}
+@media screen and (max-width: 535px) {
+	.box_window {
+  	width:320px;
+  	margin-left:-160px;
+	}
+	.works {
+		margin-right: 0px;
+	}
+	.works img {
+		margin: 5px;
+		width: 29%;
+	}
+	.rules ul {
+    margin-left: 0px;
+	}
+	.rules ul li {
+		font-size: 14px;
+	}
+}
+@media screen and (max-width: 392px) {
+	.box_window {
+  	width:280px;
+  	margin-left:-140px;
+	}
+	.subscr h2 {
+    font-size: 28px;
+	}
+	.subscr-2 h2 {
+    font-size: 28px;
+    margin: 15px 0 15px 0;
+	}
+	.rules ul {
+    margin-left: -20px;
+	}
+	.rules ul li {
+		font-size: 12px;
+	}
+	body .map-canvas {
+		width: 270px; 
+		height: 300px;
+	}
+}
